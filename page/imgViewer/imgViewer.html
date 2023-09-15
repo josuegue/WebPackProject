@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>imgViewer</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <a href="/index.html">Módulos</a>
+            <a href="/page/calculos/calculos.html">Módulo de Cálculos</a>
+            <a href="/page/taskList/taskList.html">Módulo de Lista de Tareas</a>
+            <a href="/page/unitConvert/unitConvert.html">Módulo de Conversión de Unidades</a>
+            <a href="/page/passwordGen/passwordGen.html">Módulo de Generación de Contraseñas</a>
+            <a href="/page/imgViewer/imgViewer.html">Módulo de Galería de Imágenes</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Galería de Imágenes</h1>
+        <input type="file" id="image-upload" accept="image/*">
+        <div id="image-gallery" class="image-gallery"></div>
+    </div>
+    <script type="module" src="/js/imgViewer.js""></script>
+</html>

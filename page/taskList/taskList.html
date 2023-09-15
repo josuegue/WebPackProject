@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>TaskList</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <a href="/index.html">Módulos</a>
+            <a href="/page/calculos/calculos.html">Módulo de Cálculos</a>
+            <a href="/page/taskList/taskList.html">Módulo de Lista de Tareas</a>
+            <a href="/page/unitConvert/unitConvert.html">Módulo de Conversión de Unidades</a>
+            <a href="/page/passwordGen/passwordGen.html">Módulo de Generación de Contraseñas</a>
+            <a href="/page/imgViewer/imgViewer.html">Módulo de Galería de Imágenes</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Bienvenido a la página de Módulos</h1>
+        <div>
+            <h2>Lista de Tareas</h2>
+            <ul id="taskList"></ul>
+            <input type="text" id="taskInput" placeholder="Nueva tarea">
+            <button onclick="addTask()" id="task">Agregar</button>
+        </div>
+
+        <div id="taskPanel">
+            <div id="taskPanelContent">
+                <h2>Tareas Agregadas</h2>
+                <ul id="addedTaskList"></ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script type="module" src="/js/taskList.js""></script>
+</body>
+</html>
