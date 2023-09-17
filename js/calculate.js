@@ -1,4 +1,4 @@
-import { dividir, multiplicar, restar, sumar} from "../module/calculos.js";
+import { dividir, multiplicar, restar, sumar} from "../module/aggregator.js";
 function calcular(event) {
     event.preventDefault();
 
